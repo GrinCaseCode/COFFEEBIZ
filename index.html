@@ -15,11 +15,12 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
 	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body>
 
@@ -35,19 +36,19 @@
 						<div class="logo-descr">Кофейный консалтинг 24/7 в Москве и МО</div>
 					</div>
 					<ul class="menu">
-						<li><a href="#">Почему мы</a></li>
-						<li><a href="#">Тарифы</a></li>
-						<li><a href="#">Бизнес курс</a></li>
-						<li><a href="#">Этапы открытия</a></li>
-						<li><a href="#">проекты</a></li>
-						<li><a href="#">Услуги</a></li>
-						<li><a href="#">Наша команда</a></li>
-						<li><a href="#">Отзывы</a></li>
+						<li><a href="#sect-history">Почему мы</a></li>
+						<li><a href="#sect-tarifs">Тарифы</a></li>
+						<li><a href="#sect-course">Бизнес курс</a></li>
+						<li><a href="#sect-etaps">Этапы открытия</a></li>
+						<li><a href="#sect-portfolio">проекты</a></li>
+						<li><a href="#sect-services">Услуги</a></li>
+						<li><a href="#sect-team">Наша команда</a></li>
+						<li><a href="#sect-reviews">Отзывы</a></li>
 					</ul>
 					<div class="header__right">
 						<div class="header__contacts">
 							<a href="tel:+74951339647" class="phone-main"><i class="fas fa-phone-alt"></i>+7 (495) 133-96-47</a>
-							<a href="#" class="link-simple">Заказать звонок</a>
+							<a href="#callback" class="link-simple fancybox">Заказать звонок</a>
 						</div>
 						<ul class="social-links">
 							<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
@@ -93,10 +94,10 @@
 								</div>
 							</div>
 						</div>
-						<a href="#" class="btn-main">Получить консультацию кофейного эксперта бесплатно</a>
+						<a href="#callback" class="btn-main fancybox">Получить консультацию кофейного эксперта бесплатно</a>
 					</div>
 					<div class="col-lg-6 col-md-5">
-						<div class="block-circle">
+						<div class="block-circle zoomIn wow" data-wow-iteration="1">
 							<p>с дальнейшей прибылью от</p>
 							<strong><i class="fas fa-star"></i>80 000 <i class="fas fa-star"></i></strong>
 							<p>руб./мес</p>
@@ -106,15 +107,15 @@
 			</div>
 		</div>
 
-		<div class="history">
-			<div class="lines lines_2">
+		<div class="history" id="sect-history">
+			<div class="lines lines_2 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines2.png" alt="alt">
 			</div>
-			<div class="lines lines_3">
+			<div class="lines lines_3 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines3.png" alt="alt">
 			</div>
 			<div class="container">
-				<div class="title-section">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1">
 					<strong>За 3 года работы</strong>
 					<span>мы помогли организовать открытие более <b>20 кофеен</b></span>
 				</div>
@@ -148,16 +149,16 @@
 		</div>
 
 		<div class="get-plan">
-			<div class="lines lines_4">
+			<div class="lines lines_4 fadeInLeft wow" data-wow-iteration="1">
 				<img src="img/lines4.png" alt="alt">
 			</div>
-			<div class="lines lines_5">
+			<div class="lines lines_5 fadeInRight wow" data-wow-iteration="1">
 				<img src="img/lines5.png" alt="alt">
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8">
-						<div class="title-section title-section_simple">
+						<div class="title-section title-section_simple fadeInUp wow" data-wow-iteration="1">
 							<span>Получите подробный бизнес-план</span>
 							<strong>по открытию кофейни</strong>
 							<span>через 15 секунд</span>
@@ -190,12 +191,12 @@
 			</div>
 		</div>
 
-		<div class="tarifs">
-			<div class="lines lines_6">
+		<div class="tarifs" id="sect-tarifs">
+			<div class="lines lines_6 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines6.png" alt="alt">
 			</div>
 			<div class="container">
-				<div class="title-section">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1">
 					<strong>Тарифы</strong>
 					<span>Открытие собственного бизнеса под ключ</span>
 				</div>
@@ -256,12 +257,12 @@
 			</div>
 		</div>
 
-		<div class="course">
-			<div class="lines lines_7">
+		<div class="course" id="sect-course">
+			<div class="lines lines_7 fadeInRight wow" data-wow-iteration="1">
 				<img src="img/lines7.png" alt="alt">
 			</div>
 			<div class="container">
-				<div class="title-section">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1">
 					<strong>Бизнес курс</strong>
 					<span>Как открыть и успешно управлять кофейным бизнесом</span>
 				</div>
@@ -407,19 +408,19 @@
 			</div>
 		</div>
 
-		<div class="etaps">
-			<div class="lines lines_8">
+		<div class="etaps" id="sect-etaps">
+			<div class="lines lines_8 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines8.png" alt="alt">
 			</div>
-			<div class="lines lines_9">
+			<div class="lines lines_9 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines9.png" alt="alt">
 			</div>
 			<div class="container">
-				<div class="title-section"><span>Какие этапы мы пройдем вместе с вами, открывая кофейню</span></div>
-				<div class="etaps__bg">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1"><span>Какие этапы мы пройдем вместе с вами, открывая кофейню</span></div>
+				<div class="etaps__bg zoomIn wow" data-wow-iteration="1">
 					<img src="img/bg_block.png" alt="alt">
 				</div>
-				<div class="etaps__bginner">
+				<div class="etaps__bginner zoomIn wow" data-wow-iteration="1">
 					<img src="img/img_etap_bg1.png" alt="alt">
 				</div>
 				<ul class="slider-etaps slider-main">
@@ -483,19 +484,19 @@
 			</div>
 		</div>
 
-		<div class="portfolio">
-			<div class="lines lines_10">
+		<div class="portfolio" id="sect-portfolio">
+			<div class="lines lines_10 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines10.png" alt="alt">
 			</div>
-			<div class="lines lines_11">
+			<div class="lines lines_11 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines11.png" alt="alt">
 			</div>
 			<div class="container">
-				<div class="title-section">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1">
 					<strong>истории</strong>
 					<span>собственников кофейного бизнеса, которым мы помогли запуститься</span>
 				</div>
-				<div class="portfolio__bg">
+				<div class="portfolio__bg zoomIn wow" data-wow-iteration="1">
 					<img src="img/bg_portfolio.png" alt="alt">
 				</div>
 				<ul class="slider-portfolio">
@@ -561,13 +562,13 @@
 		</div>
 
 		<div class="get-plan get-plan_conslut">
-			<div class="lines lines_5">
+			<div class="lines lines_5 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines5.png" alt="alt">
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 col_pr">
-						<div class="title-section title-section_simple">
+						<div class="title-section title-section_simple fadeInUp wow" data-wow-iteration="1">
 							<span>Оставьте заявку</span>
 							<strong>на бесплатную консультацию</strong>
 							<span>от наших экспертов</span>
@@ -602,16 +603,16 @@
 			</div>
 		</div>
 
-		<div class="services">
-			<div class="lines lines_12">
+		<div class="services" id="sect-services">
+			<div class="lines lines_12 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines12.png" alt="alt">
 			</div>
 			<div class="container">
-				<div class="title-section"><span>Мы <b>предоставляем услуги</b> комплексно и по-отдельности</span></div>
-				<div class="etaps__bg">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1"><span>Мы <b>предоставляем услуги</b> комплексно и по-отдельности</span></div>
+				<div class="etaps__bg zoomIn wow" data-wow-iteration="1">
 					<img src="img/bg_block.png" alt="alt">
 				</div>
-				<div class="etaps__bginner">
+				<div class="etaps__bginner zoomIn wow" data-wow-iteration="1">
 					<img src="img/img_etap_bg1.png" alt="alt">
 				</div>
 				<ul class="tabs">
@@ -681,16 +682,16 @@
 			</div>
 		</div>
 
-		<div class="team">
+		<div class="team" id="sect-team">
 			<div class="container">
-				<div class="title-section"><span><b>команда</b> кофейных экспертов</span></div>
-				<div class="bg-team bg-team_1">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1"><span><b>команда</b> кофейных экспертов</span></div>
+				<div class="bg-team bg-team_1 zoomIn wow" data-wow-iteration="1">
 					<img src="img/bg_team1.png" alt="alt">
 				</div>
-				<div class="bg-team bg-team_2">
+				<div class="bg-team bg-team_2 zoomIn wow" data-wow-iteration="1">
 					<img src="img/bg_team2.png" alt="alt">
 				</div>
-				<div class="bg-team bg-team_3">
+				<div class="bg-team bg-team_3 zoomIn wow" data-wow-iteration="1">
 					<img src="img/bg_team3.png" alt="alt">
 				</div>
 				<ul class="slider-team">
@@ -742,16 +743,16 @@
 			</div>
 		</div>
 
-		<div class="reviews">
-			<div class="lines lines_13">
+		<div class="reviews" id="sect-reviews">
+			<div class="lines lines_13 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines12.png" alt="alt">
 			</div>
-			<div class="lines lines_14">
+			<div class="lines lines_14 fadeInUp wow" data-wow-iteration="1">
 				<img src="img/lines12.png" alt="alt">
 			</div>
 			<div class="container">
-				<div class="title-section"><span><b>Отзывы клиентов</b> о нашей работе</span></div>
-				<div class="reviews__bg">
+				<div class="title-section fadeInUp wow" data-wow-iteration="1"><span><b>Отзывы клиентов</b> о нашей работе</span></div>
+				<div class="reviews__bg zoomIn wow" data-wow-iteration="1">
 					<img src="img/bg_reviews.png" alt="alt">
 				</div>
 				<ul class="slider-reviews">
@@ -789,7 +790,7 @@
 		<div class="blog">
 			<div class="container">
 				<div class="head-section">
-					<div class="title-section"><span>блог</span></div>
+					<div class="title-section fadeInUp wow" data-wow-iteration="1"><span>блог</span></div>
 					<a href="#" class="link-main">Читать все статьи</a>
 				</div>
 				<ul class="slider-blog">
@@ -860,6 +861,29 @@
 		
 	</div>
 
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">Заказать звонок</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Телефон" class="input-phone" required="required">
+				</div>
+				<button class="btn-main" type="submit">Заказать</button>
+				<div class="checkbox-wrap">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -869,11 +893,13 @@
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/animate/wow.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
 <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js"></script>
+<script src="js/common.js?ver=1.2"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter --> 
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
