@@ -11,8 +11,14 @@ $(window).scroll(function(){
 	}
 });
 
+	/*animate*/
+	new WOW().init();
+
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".menu li a").mPageScroll2id({
+		offset: 20
+	});
+
 
 
 	//кнопка sandwich
@@ -51,6 +57,27 @@ $('.tabs li a').click(function(event) {
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn();
 	});
+
+{
+		if ($(window).width() < 768) { 
+
+			/*scroll to tabs*/
+
+			$('.tabs a').on( 'click', function(){ 
+				var el = $(this);
+				var dest = el.attr('href'); 
+				if(dest !== undefined && dest !== '') { 
+					$('html').animate({ 
+						scrollTop: $(dest).offset().top - 60
+        }, 500 // скорость прокрутки
+        );
+				}
+				return false;
+			});
+
+
+		}
+	}
 
 	//слайдер
 

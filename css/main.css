@@ -1441,3 +1441,71 @@ top: -180px;
 }
 
 /*End Sandwich*/
+.modal-block {
+	display: none;
+}
+.fancybox-skin {
+	padding: 0 !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+.modal-wrap {
+	width: 525px;
+	padding: 70px 90px;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #353034;
+	background-image: url(../img/bg_modal.png);
+	background-repeat: no-repeat;
+	background-position: right bottom -20px;
+}
+.title-modal {
+	font-size: 30px;
+	padding-bottom: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Akrobat';
+	font-weight: 900;
+}
+.modal-wrap .btn-main {
+	width: 240px;
+	margin-top: 30px;
+	max-width: 100%;
+}
+.modal-wrap .checkbox {
+	margin-top: 30px;
+}
+.fancybox-inner {
+	overflow: visible !important;
+}
+.fancybox-close {
+	top: 12px;
+	right: 12px;
+	width: 20px;
+	height: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	color: #fff;
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 900;
+	font-size: 17px;
+	border-radius: 50%;
+	background:none !important;
+}
+.fancybox-close:before {
+	content: "\f00d";
+}

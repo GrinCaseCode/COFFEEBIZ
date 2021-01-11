@@ -523,6 +523,8 @@ body {
     	justify-content: flex-end;
     }
     .row_footer > div {
+    	padding-left: 15px;
+    	padding-right: 15px;
     	text-align: center;
     }
     .team {
@@ -579,11 +581,16 @@ body {
     font-size: 33px;
 }
 .title-section strong {
-    font-size: 33px;
+    font-size: 20px;
+    display: inline;
     }
     .title-section {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.form-block__title {
+	font-size: 16px;
+	line-height: 22px;
 }
 .item-tarif ul {
 	padding: 20px 15px;
@@ -699,6 +706,115 @@ body {
 }
 .get-plan {
 	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.modal-wrap {
+	padding: 50px 15px;
+}
+.title-modal {
+    font-size: 23px;
+    padding-bottom: 15px;
+    }
+    .modal-wrap .checkbox {
+    margin-top: 18px;
+}
+.item-history {
+    font-size: 14px;
+    line-height: 24px;
+}
+.tarifs {
+	padding-bottom: 40px;
+}
+.slider-etaps__number {
+    font-size: 33px;
+}
+.slider-etaps__name {
+	font-size: 20px;
+	line-height: 30px;
+	padding-bottom: 0;
+}
+
+.name-billbord,
+.title-billbord,
+.item-tarif__head,
+.item-blog__name,
+.slider-reviews__name,
+.services__title,
+.slider-portfolio__name {
+	font-size: 20px;
+}
+.name-billbord {
+	font-size: 22px;
+	padding: 8px 0;
+}
+.slider-count {
+    font-size: 14px;
+    }
+    .slider-count span {
+    font-size: 22px;
+}
+.slider-portfolio__descr {
+    font-size: 16px;
+}
+.slider-portfolio__right .btn-main {
+	width: 100%;
+}
+.get-plan .form-block {
+	margin-top: 0;
+}
+.services .tab-container {
+    padding-top: 25px;
+}
+.services__title {
+	margin-bottom: 15px;
+}
+.item-team__image {
+    height: 290px;
+}
+.item-team__image img {
+	object-position: top;
+}
+.services p {
+    margin-bottom: 15px;
+}
+.team {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.slider-team {
+    margin-top: 20px;
+}
+.item-team__name {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.reviews {
+    padding-top: 25px;
+    }
+    .slider-reviews p {
+    	margin-top: 15px;
+    }
+    .head-section .link-main {
+    	margin-bottom: 0;
+    }
+    .footer__top {
+    padding-bottom: 10px;
+}
+.services,
+.etaps {
+	padding-bottom: 40px;
+}
+.portfolio {
+    padding-bottom: 35px;
+}
+.item-history__image {
+	height: 210px;
+}
+.btn-main {
+	font-size: 14px;
+}
+.billbord .btn-main {
+	padding: 0 15px;
 }
 }
 
