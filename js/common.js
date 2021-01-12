@@ -14,9 +14,11 @@ $(window).scroll(function(){
 	/*animate*/
 	new WOW().init();
 
+var $header_height = $(".header").height();
+
 	//плавный скролл
 	$(".menu li a").mPageScroll2id({
-		offset: 20
+		offset: $header_height
 	});
 
 

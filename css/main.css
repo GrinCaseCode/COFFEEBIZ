@@ -68,6 +68,15 @@ p {
 }
 .header {
 	padding: 12px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 1500;
+}
+.wrapper {
+	padding-top: 65.6px;
 }
 .header__top {
 	display: flex;
