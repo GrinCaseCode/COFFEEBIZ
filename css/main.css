@@ -1210,7 +1210,7 @@ color: #88654d;
 	display: inline-block;
 }
 .logo-footer img {
-	max-width: 162px;
+	width: 162px;
 }
 .mail-footer {
 	font-size: 14px;
