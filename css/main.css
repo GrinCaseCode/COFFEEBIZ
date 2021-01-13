@@ -1518,3 +1518,130 @@ top: -180px;
 .fancybox-close:before {
 	content: "\f00d";
 }
+.title-section_page {
+	color: #88654d;
+	padding-top: 20px;
+	line-height: auto;
+	font-weight: 900;
+	text-align: center;
+	display: block;
+}
+.header_page {
+	border-bottom: 1px #eaeaea solid;
+}
+.article__image img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+.article__date {
+	padding: 20px 0;
+	text-align: center;
+	font-family: 'Akrobat';
+	font-weight: 800;
+}
+.title-page {
+	font-size: 40px;
+	text-transform: uppercase;
+		font-family: 'Akrobat';
+	font-weight: 800;
+}
+.article p {
+	margin-bottom: 20px;
+	color: #000;
+	line-height: 24px;
+}
+
+.article strong {
+	font-weight: 700;
+}
+.list-page {
+	padding-top: 10px;
+	font-weight: 700;
+	color: #000;
+}
+.list-page li {
+	padding-left: 15px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.list-page li::before {
+	position: absolute;
+	display: block;
+	content: "•";
+	top: 0px;
+	left: 0;
+}
+.article .title-page {
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.article {
+	padding-bottom: 35px;
+}
+.article .row .row .title-page {
+	padding-top: 20px;
+}
+.row_blog .item-blog {
+	margin-top: 38px;
+}
+.pagination {
+	font-size: 24px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Akrobat';
+	font-weight: 700;
+}
+.pagination a {
+	margin: 0 11px;
+	color: #353034;
+	display: inline-flex;
+	align-items: center;	
+	transition: all 0.3s;
+}
+.pagination .active a,
+.pagination a:hover {
+	color: #88654d;
+}
+.pagination ul {
+	min-width: 365px;
+	display: flex;
+	max-width: 100%;
+	align-items: center;
+}
+.pagination li {
+	display: inline-flex;
+	align-items: center;
+}
+.pagination i {
+	font-size: 17px;
+}
+.pagination__arrow:last-of-type {
+	margin-left: auto;
+}
+.pagination__arrow:last-of-type a {
+	margin-left: 25px;
+}
+.pagination__arrow:first-of-type a {
+	margin-right: 25px;
+}
+.pagination__arrow a {
+	position: relative;
+	top: 2px;
+}
+.blog_page {
+	padding-bottom: 50px;
+}
+.blog_page .title-section span {
+	margin-top: 0;
+}
+.blog_page {
+	padding-top: 20px;
+}
+.blog_page .title-section {
+	margin-bottom: -20px;
+	line-height: auto;
+}
